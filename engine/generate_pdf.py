@@ -18,7 +18,6 @@ def build_pdf(filename="episodes/ep01_dunkirk_1940/script_de.pdf"):
 
     styles = getSampleStyleSheet()
     
-    # Custom styles
     header_style = ParagraphStyle(
         'HeaderStyle',
         parent=styles['Normal'],
@@ -80,13 +79,14 @@ def build_pdf(filename="episodes/ep01_dunkirk_1940/script_de.pdf"):
     story.append(Paragraph("ZEITLINIE X | @zeitlinie_x", badge_style))
     story.append(Spacer(1, 0.2*cm))
     story.append(Paragraph("Sprecherskript: Folge 01 - Dünkirchen 1940", header_style))
-    story.append(Paragraph("Thema: Was, wenn die Evakuierung gescheitert wäre? | Ziel-Dauer: ca. 70 Sekunden", sub_style))
+    story.append(Paragraph("Thema: Was, wenn Dünkirchen gescheitert wäre? | Format: TikTok 9:16 (ca. 70s)", sub_style))
     story.append(Spacer(1, 0.3*cm))
     story.append(HRFlowable(width="100%", thickness=1.5, color=colors.HexColor('#CBD5E1'), spaceBefore=3, spaceAfter=10))
 
     # Recording Tips Box
     tip_text = (
-        "<b>Aufnahme-Tipps:</b> Sprich ruhig, tief und mit spürbarem Ernst. "
+        "<b>Aufnahme-Tipps:</b> Starte direkt mit maximaler Energie beim Hook! "
+        "Sprich danach ruhig, tief und mit spürbarem Ernst. "
         "Lass Pausen (z. B. bei <b>[...]</b>) ganz bewusst ca. 0,8 Sekunden stehen. "
         "Wenn du dich verhaspelst: einfach Satz neu ansetzen, wir schneiden es später!"
     )
@@ -100,36 +100,36 @@ def build_pdf(filename="episodes/ep01_dunkirk_1940/script_de.pdf"):
     story.append(tip_table)
     story.append(Spacer(1, 0.4*cm))
 
-    # Scenes
+    # Scenes with Hook A
     scenes = [
         (
-            "[00:00 - 00:04] Szene 1: Die Falle am Strand",
-            "Nebeliger Strand, verlassene Helme, Blick aufs Meer",
-            "„Mai 1940. Über 300.000 alliierte Soldaten stehen am Strand von Dünkirchen. Mit dem Rücken zum Meer. Und Hitlers Panzer rollen an.“"
+            "[00:00 - 00:04] Szene 1: Der Provokations-Hook",
+            "Text groß im Bild: „Der Tag, an dem Hitler fast gewann“ + brennende Küste",
+            "„Es gab einen einzigen Tag, an dem Hitler fast den gesamten Zweiten Weltkrieg gewonnen hätte.“"
         ),
         (
-            "[00:04 - 00:10] Szene 2: Das historische Wunder",
-            "Animierte Karte: Deutsche Panzer stoppen vor dem Kessel",
-            "„In unserer Realität stoppten die deutschen Panzer für 48 Stunden. Ein Wunder: Über 330.000 Männer wurden evakuiert.“"
+            "[00:04 - 00:10] Szene 2: Die Falle von Dünkirchen",
+            "Taktische Kesselkarte: 300.000 Soldaten am Strand, Panzer stoppen plötzlich",
+            "„Dünkirchen, Mai 1940. Über 300.000 britische Soldaten sitzen in der Falle. Mit dem Rücken zum Meer. Hitlers Panzer stehen wenige Kilometer entfernt – und stoppen plötzlich für 48 Stunden. Ein Wunder: 330.000 Männer entkommen.“"
         ),
         (
             "[00:10 - 00:15] Szene 3: Der Zeitlinien-Bruch (Zeitlinie X)",
-            "Zeitsprung-Effekt, Zeitlinie teilt sich in Rot/Gold",
+            "Zeitsprung-Effekt, Zeitlinie spaltet sich in Rot/Gold",
             "„Doch was passiert in Zeitlinie X? [...] Was, wenn dieser Haltebefehl niemals erteilt worden wäre?“"
         ),
         (
             "[00:15 - 00:26] Szene 4: Vernichtung des Expeditionskorps",
-            "Panzerangriff, Stukas, Zerstörung am Perimeter",
+            "Panzer brechen durch, Stuka-Angriffe, Zerstörung am Strand",
             "„Innerhalb von nur 72 Stunden wäre das gesamte britische Expeditionskorps vernichtet oder gefangen genommen worden. Die gesamte kampffähige Berufsarmee Großbritanniens: ausgelöscht.“"
         ),
         (
             "[00:26 - 00:38] Szene 5: Panik & Krise in London",
-            "Downing Street No. 10 im Regen, zerstrittenes Parlament",
-            "„In London bricht die Regierung zusammen. Winston Churchill verliert seinen Rückhalt – Friedensbefürworter um Lord Halifax übernehmen das Ruder. Ohne Armee steht England vor der Wahl: Kapitulation oder ein demütigender Frieden.“"
+            "Downing Street No. 10 im Regen, zerstrittenes Parlament, Churchill isoliert",
+            "„In London bricht die Regierung zusammen. Winston Churchill verliert seinen Rückhalt – Friedensbefürworter übernehmen das Ruder. Ohne Armee steht England vor der Wahl: Kapitulation oder ein demütigender Frieden.“"
         ),
         (
             "[00:38 - 00:50] Szene 6: Waffenstillstand & Blick nach Osten",
-            "Karte färbt sich rot, Wehrmachtszüge rollen ostwärts",
+            "Karte färbt sich rot, massive Truppenverlegungen per Zug nach Osten",
             "„Großbritannien scheidet 1940 aus dem Krieg aus. Keine Luftschlacht um England. Keine Landung in der Normandie 1944. Und als 1941 der Angriff auf die Sowjetunion beginnt, existiert keine zweite Front im Westen.“"
         ),
         (
@@ -159,7 +159,7 @@ def build_pdf(filename="episodes/ep01_dunkirk_1940/script_de.pdf"):
             ('BOTTOMPADDING', (0,-1), (-1,-1), 8),
         ]))
         story.append(scene_table)
-        story.append(Spacer(1, 0.22*cm))
+        story.append(Spacer(1, 0.2*cm))
 
     doc.build(story)
     print(f"PDF successfully built: {filename}")

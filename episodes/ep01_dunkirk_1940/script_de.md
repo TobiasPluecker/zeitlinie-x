@@ -1,25 +1,25 @@
-# Episode 01: Dünkirchen 1940 (Deutsch)
+# Episode 01: Dünkirchen 1940 (Deutsch) - Hook Option A
 
 - **Länge:** ca. 72 Sekunden
+- **Format:** TikTok / Shorts 9:16
 - **Thema:** Operation Dynamo / Das Wunder von Dünkirchen vs. totale Vernichtung des BEF
 
 ---
 
 ## Sprechertext & Regieanweisungen
 
-### [00:00 - 00:04] Szene 1: Die Falle am Strand
-- **Visual:** Nebeliger Strand, marschierende Truppen, brennende Schiffe am Horizont.
-- **On-Screen Text:** „Mai 1940: Dünkirchen scheitert.“
+### [00:00 - 00:04] Szene 1: Der Provokations-Hook
+- **Visual:** Text groß im Bild: „Der Tag, an dem Hitler fast gewann“ + brennende Küste im Morgengrauen, dramatischer Zoom.
 - **Voiceover:**
-  > „Mai 1940. Über 300.000 alliierte Soldaten stehen am Strand von Dünkirchen. Mit dem Rücken zum Meer. Und Hitlers Panzer rollen an.“
+  > „Es gab einen einzigen Tag, an dem Hitler fast den gesamten Zweiten Weltkrieg gewonnen hätte.“
 
-### [00:04 - 00:10] Szene 2: Das historische Wunder
-- **Visual:** Schnelle animierte Karte: Deutsche Panzer stoppen vor der Kessellinie. Kleine Boote überqueren den Kanal.
+### [00:04 - 00:10] Szene 2: Die Falle von Dünkirchen
+- **Visual:** Taktische Kesselkarte: 300.000 Soldaten am Strand, deutsche Panzer stoppen plötzlich wenige Kilometer vor der Küste.
 - **Voiceover:**
-  > „In unserer Realität stoppten die deutschen Panzer für 48 Stunden. Ein Wunder: Über 330.000 Männer wurden evakuiert.“
+  > „Dünkirchen, Mai 1940. Über 300.000 britische Soldaten sitzen in der Falle. Mit dem Rücken zum Meer. Hitlers Panzer stehen wenige Kilometer entfernt – und stoppen plötzlich für 48 Stunden. Ein Wunder: 330.000 Männer entkommen.“
 
 ### [00:10 - 00:15] Szene 3: Der Zeitlinien-Bruch (Zeitlinie X)
-- **Visual:** Screen-Glitch, Sound-Boom, Zeitlinie teilt sich in zwei Pfade.
+- **Visual:** Screen-Glitch, Sound-Boom, Zeitlinie teilt sich in Rot/Gold.
 - **Voiceover:**
   > „Doch was passiert in Zeitlinie X? [...] Was, wenn dieser Haltebefehl niemals erteilt worden wäre?“
 
@@ -31,7 +31,7 @@
 ### [00:26 - 00:38] Szene 5: Panik in London
 - **Visual:** London 1940 im Regen, Downing Street No. 10, Churchill blickt aus einem Fenster in eine unruhige Menge.
 - **Voiceover:**
-  > „In London bricht die Regierung zusammen. Winston Churchill verliert seinen Rückhalt – Friedensbefürworter um Lord Halifax übernehmen das Ruder. Ohne Armee steht England vor der Wahl: Kapitulation oder ein demütigender Frieden.“
+  > „In London bricht die Regierung zusammen. Winston Churchill verliert seinen Rückhalt – Friedensbefürworter übernehmen das Ruder. Ohne Armee steht England vor der Wahl: Kapitulation oder ein demütigender Frieden.“
 
 ### [00:38 - 00:50] Szene 6: Waffenstillstand & Wende nach Osten
 - **Visual:** Karte von Europa färbt sich rot/grau. Deutsche Divisionen verlegen massiv per Eisenbahn nach Osten.
