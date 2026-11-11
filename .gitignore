@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+.venv/
+
+# Video & Large Renders (prevent bloating git repo)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.mp3
+!assets/sfx/*.mp3
+!assets/music/*.mp3
+render/
+output/
+temp/
+scratch/
+
+# OS Files
+Thumbs.db
+.DS_Store
+*.tmp

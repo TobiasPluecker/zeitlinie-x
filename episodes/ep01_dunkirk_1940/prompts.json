@@ -1,0 +1,55 @@
+{
+  "episode": "ep01_dunkirk_1940",
+  "aspect_ratio": "9:16",
+  "scenes": [
+    {
+      "id": "scene_01_beach",
+      "time": "00:00 - 00:04",
+      "description": "Allied soldiers cornered at Dunkirk beach, May 1940",
+      "image_prompt": "Cinematic historical film still, May 1940 Dunkirk beach, thousands of British soldiers waiting on gray misty shoreline, smoke rising in the far distance, rough waves, desaturated gritty colors, 35mm film grain, hyperrealistic, dramatic wide angle, vertical 9:16 --ar 9:16 --v 6.0",
+      "video_prompt": "Slow aerial dolly forward over a misty beach crowded with vintage WW2 soldiers looking out at a stormy sea with distant smoke plumes, hyperrealistic, 4k"
+    },
+    {
+      "id": "scene_02_halt_order",
+      "time": "00:04 - 00:10",
+      "description": "German Panzer tanks idling in French countryside",
+      "image_prompt": "1940 German Panzer III tanks idling in mud road French countryside, exhaust smoke drifting, tank commanders looking through binoculars into the distance, overcast war mood, 35mm vintage photography --ar 9:16 --v 6.0",
+      "video_prompt": "Low angle static shot of vintage WW2 tanks idling with diesel smoke gently drifting in the wind, cloudy sky"
+    },
+    {
+      "id": "scene_03_timeline_split",
+      "time": "00:10 - 00:15",
+      "description": "Glitch timeline effect",
+      "image_prompt": "Abstract alternate history concept, glowing golden timeline splitting into two dark divergent branches, vintage tactical compass on dark steel table, dramatic cinematic lighting --ar 9:16 --v 6.0",
+      "video_prompt": "Glowing golden timeline splitting into a red divergent path, cinematic digital glitch overlay, dark moody lighting"
+    },
+    {
+      "id": "scene_04_panzer_assault",
+      "time": "00:15 - 00:26",
+      "description": "German tanks charging across the defensive perimeter",
+      "image_prompt": "Intense WW2 battle scene, German panzer division attacking defensive positions near Dunkirk perimeter, burning trucks, artillery explosions in muddy fields, dynamic action shot, 9:16 vertical --ar 9:16 --v 6.0",
+      "video_prompt": "Fast tracking shot of vintage tanks driving across a muddy battlefield with distant smoke and explosions, documentary combat footage style"
+    },
+    {
+      "id": "scene_05_london_crisis",
+      "time": "00:26 - 00:38",
+      "description": "British government crisis in 10 Downing Street / Westminster",
+      "image_prompt": "Vintage 1940 London cabinet room, Winston Churchill and grim-faced British politicians in intense debate around dark wooden table covered with war maps, dim volumetric lighting through rain-streaked window --ar 9:16 --v 6.0",
+      "video_prompt": "Slow zoom in on British statesmen standing over war room maps arguing in low dramatic lighting, heavy atmosphere"
+    },
+    {
+      "id": "scene_06_march_east",
+      "time": "00:38 - 00:50",
+      "description": "German forces redeploying east towards the USSR",
+      "image_prompt": "Massive military train convoy transporting tanks and artillery through Eastern European plains, dark ominous skies, epic scale, 1941 alternate history documentary --ar 9:16 --v 6.0",
+      "video_prompt": "Cinematic aerial view of military supply trains loaded with tanks rolling across endless misty European plains"
+    },
+    {
+      "id": "scene_07_alternate_world",
+      "time": "00:50 - 01:02",
+      "description": "Dark alternate history world map on tactical table",
+      "image_prompt": "Vintage strategic military map of Europe pinned with tactical markers, dark shadows, single spotlight illuminating the Eastern Front, cinematic macro shot, shallow depth of field --ar 9:16 --v 6.0",
+      "video_prompt": "Macro camera pan across a dark vintage military map with glowing red conquest lines spreading eastwards"
+    }
+  ]
+}
